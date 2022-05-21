@@ -1,0 +1,78 @@
+.subscribed-button {
+  background-color: #cc0000;
+  margin-left: 20px;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+.subscribed-button:hover {
+  opacity: 0.6;
+}
+.subscribed-button:active {
+  opacity: 0.35;
+}
+.join-btn {
+  background-color: white;
+  border: 2px solid #065fd4;
+  padding: 9px;
+  color: rgb(41, 118, 211);
+  border-radius: 1px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s, color 0.15s;
+  vertical-align: top;
+}
+.join-btn:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+.join-btn:active {
+  opacity: 0.7;
+}
+.tweet-btn {
+  background-color: #1d9bf0;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 18px;
+  cursor: pointer;
+  color: white;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+.tweet-btn:hover {
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.15);
+}
+.logo-image {
+  position: fixed;
+  margin-right: 10px;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+.like-btn{
+  padding: 10px;
+  background-color:olivedrab;
+  color: white;
+  vertical-align: top;
+  transition: padding 1s;
+  border: none;
+  border-radius: 5px
+}
+.like-btn:hover{
+  padding: 15px;
+}
+//box model
+/* padding 
+margin *
